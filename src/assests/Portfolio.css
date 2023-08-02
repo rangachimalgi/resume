@@ -1,0 +1,32 @@
+.experience-container {
+    max-width: 1000px;
+    margin: 80px auto 0;
+    padding: 20px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-container h2 {
+    margin-top: 0;
+  }
+  
+  .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-item p {
+    margin-bottom: 5px;
+  }
+  
+  .company-name {
+    font-weight: bold;
+  }
+  
+  .duration {
+    color: #777;
+  }
+  
+  /* Add any other styling as needed */
+  
