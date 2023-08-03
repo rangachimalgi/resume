@@ -9,24 +9,22 @@ function Resume() {
         <h3 className="proj">About me</h3>
         <p className="para-first">
           Name: Ranganath Chimalgi <br />
-          "I am a diligent professional with a strong academic foundation,
-          having completed my 10th standard at Shree Guru Vidya Peetha and
-          pursued my 2nd PU at Chimalgi PU College of Science, both in Gulbarga,
-          Karnataka. For my engineering studies, I attended SDM College of
-          Engineering and Technology in the Information Science department.
-          Alongside my academic achievements, I gained 9 months of valuable
-          experience as an intern at CustomerXPs, followed by 2 months of
-          successful freelancing, during which I honed my skills and gained
-          valuable insights in the industry."
+          "I am a diligent professional seeking opportunities in MERN / React
+          developer, having completed my 10th standard at Shree Guru Vidya
+          Peetha and pursued my 2nd PU at Chimalgi PU College of Science, both
+          in Gulbarga, Karnataka. For my engineering studies, I graduated from
+          Information Science department. Alongside my academics, I gained 9
+          months of valuable experience as an intern at CustomerXPs, followed by
+          2 months of successful freelancing, during which I honed my skills and
+          gained valuable insights in the industry."
         </p>
       </section>
       {/* Education */}
       <section className="resume-section">
         <h3 className="proj">Education</h3>
         <h1 className="proj">Bachelor of Engineering</h1>
-        Information Science And Engineering SDM College of Engineering and Technology - Dharwad
-        CGPA: 6.38
-
+        Information Science And Engineering SDM College of Engineering and
+        Technology - Dharwad
         <h1 className="proj">Pre-University</h1>
         Science: Chimalgi PU College of science - Dharwad
         <h1 className="proj">SSLC</h1>
@@ -34,16 +32,16 @@ function Resume() {
       </section>
       {/* Skills */}
       <section className="resume-section">
-        <h3 className="proj">Skills</h3>
-        <ul>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>Node.js</li>
-          <li>Express.js</li>
-          <li>MongoDB</li>
-          <li>MySQL (Comfortable)</li>
+        <h3 className="proj">Skillsets</h3>
+        <h1 className="skill">
+          <p>JavaScript</p>
+          <p>React.js</p>
+          <p>Node.js</p>
+          <p>Express.js</p>
+          <p>MongoDB</p>
+          <p>MySQL</p>
           {/* Add more skills as needed */}
-        </ul>
+        </h1>
       </section>
       {/* Projects */}
       <section className="resume-section">

@@ -14,10 +14,6 @@ function About() {
           dedicated learner, adaptable problem-solver, and committed team
           player.
         </p>
-        <p>
-          "I was earning an annual CTC of 5 lakhs, and I am seeking a
-          salary of 6.5 lakhs per annum for my next role."
-        </p>
       </div>
     </div>
   );

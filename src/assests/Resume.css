@@ -12,6 +12,12 @@
     margin-top: 0;
   }
   
+  .skill{
+    text-align: center;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 15px;
+  }
   /* .resume-section {
     margin-bottom: 20px;
   } */
@@ -27,7 +33,7 @@
   .resume-section ul {
     list-style: disc;
     margin-top: 0;
-    margin-left: 20px;
+    margin-left: 1px;
   }
   
 .para-first{

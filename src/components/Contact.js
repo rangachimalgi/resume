@@ -12,6 +12,10 @@ function Contact() {
         <li>Email: rangachimalgi123@gmail.com</li>
         <li>Phone: 7259672141</li>
       </ul>
+      <p>
+        "I was earning an annual CTC of 5 lakhs, and I am seeking a salary of
+        6.5 lakhs per annum for my next role."
+      </p>
       <p className="social-para">For social media, contact:</p>
       <div className="contact-links">
         <a
@@ -28,7 +32,7 @@ function Contact() {
           rel="noopener noreferrer"
           className="social-link"
         >
-          <i className="fab fa-github"></i> 
+          <i className="fab fa-github"></i>
         </a>
       </div>
     </div>
