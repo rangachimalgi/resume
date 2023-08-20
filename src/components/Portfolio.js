@@ -1,11 +1,19 @@
 import React from "react";
-import "../assests/Portfolio.css"
+import "../assests/Portfolio.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBriefcase,
+  faBuilding,
+  faUserTie,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Portfolio = () => {
   return (
     <div className="experience-container">
+      <FontAwesomeIcon icon={faBriefcase} />
       <h2>Experience</h2>
       <div className="experience-item">
+        <FontAwesomeIcon icon={faBuilding} className="company-logo" />
         <p>
           <span className="company-name">
             Company (CustomerXPs) - Software Engineer (Trainee)
@@ -48,6 +56,8 @@ const Portfolio = () => {
         </p>
       </div>
       <div className="experience-item">
+        <FontAwesomeIcon icon={faUserTie} className="freelancing-logo" />
+
         <p>
           <span className="company-name">Freelance Software Engineer</span>{" "}
           <br />
@@ -55,9 +65,8 @@ const Portfolio = () => {
           a web application using MERN for a client who owns an Engineering shop
           for electricals. <br />
           - Collaborated closely with the client to understand requirements and
-          implement custom features. <br />
-          - Currently working on enhancements and updates for the same project.{" "}
-          <br />
+          implement custom features. <br />- Currently working on enhancements
+          and updates for the same project. <br />
         </p>
       </div>
       <div className="experience-item">

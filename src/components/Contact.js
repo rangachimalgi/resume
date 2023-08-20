@@ -1,9 +1,12 @@
 import React from "react";
 import "../assests/Contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
     <div className="contact-container">
+      <FontAwesomeIcon icon={faEnvelope} className="icon" />
       <h2 className="contact">Contact</h2>
       <p className="para">
         You can reach out to me through the following channels:
@@ -12,7 +15,7 @@ function Contact() {
         <li>Email: rangachimalgi123@gmail.com</li>
         <li>Phone: 7259672141</li>
       </ul>
-      
+
       <p className="social-para">For social media, contact:</p>
       <div className="contact-links">
         <a

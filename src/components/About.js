@@ -1,9 +1,13 @@
 import React from "react";
 import "../assests/About.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+
 
 function About() {
   return (
     <div className="box">
+    <FontAwesomeIcon icon={faUser} className="icon" />
       <h1>I am Ranganath Chimalgi.</h1>
       <div className="box-content">
         <p>

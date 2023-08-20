@@ -1,7 +1,7 @@
 .resume-container {
     max-width: 1000px;
     margin: 80px auto 0;
-    height: 1150px;
+    height: 800px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
@@ -57,6 +57,17 @@
     font-weight: 500;
     font-size: 20px;
   }
+
+  .icon-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    margin-right: 5px; /* Adjust the spacing between icon and heading */
+  }
+  
 
   .proj{
     font-weight: 800;
