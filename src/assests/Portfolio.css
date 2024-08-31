@@ -1,32 +1,50 @@
 .experience-container {
-    max-width: 1000px;
-    margin: 80px auto 0;
-    padding: 20px;
-    height: auto;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .experience-container h2 {
-    margin-top: 0;
-  }
-  
-  .experience-item {
-    margin-bottom: 20px;
-  }
-  
-  .experience-item p {
-    margin-bottom: 5px;
-  }
-  
-  .company-name {
-    font-weight: bold;
-  }
-  
-  .duration {
-    color: #777;
-  }
-  
-  /* Add any other styling as needed */
-  
+  max-width: 1000px;
+  margin: 80px auto 0;
+  padding: 20px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-container h2 {
+  margin-top: 0;
+  text-align: center; /* Center align the heading */
+}
+
+.experience-item {
+  margin-bottom: 20px;
+  text-align: left; /* Ensure text alignment for each experience item */
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between; /* Align items to opposite sides */
+  align-items: center; /* Vertically center the items */
+}
+
+.experience-item p {
+  margin-bottom: 5px;
+  text-align: left; /* Align the paragraphs to the left */
+}
+
+.company-name {
+  font-weight: bold;
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.duration {
+  color: #777;
+  margin-left: 10px; /* Optional: Add some space between the duration and the text before it */
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  width: 50%; /* Adjust the width to your preference */
+  background: #0d0d0d;
+  margin: 20px auto; /* Center the line */
+}
