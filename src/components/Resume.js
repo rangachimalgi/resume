@@ -13,15 +13,12 @@ function Resume() {
           <h3 className="proj">About me</h3>
         </div>
         <p className="para-first">
-          Name: Ranganath Chimalgi <br />
-          "I am a diligent professional seeking opportunities in MERN / React
-          developer, having completed my 10th standard at Shree Guru Vidya
-          Peetha and pursued my 2nd PU at Chimalgi PU College of Science, both
-          in Gulbarga, Karnataka. For my engineering studies, I graduated from
-          Information Science department. Alongside my academics, I gained 9
-          months of valuable experience as an intern at CustomerXPs, followed by
-          2 months of successful freelancing, during which I honed my skills and
-          gained valuable insights in the industry."
+          I am Ranganath Chimalgi <br />
+          "I am a diligent professional seeking opportunities in Full Stack
+          Development, I gained 9 months of valuable experience as an
+          intern at CustomerXPs, followed by 2 months of successful freelancing,
+          during which I honed my skills and gained valuable insights in the
+          industry."
         </p>
       </section>
       {/* Education */}
