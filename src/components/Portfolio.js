@@ -3,8 +3,6 @@ import "../assests/Portfolio.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBriefcase,
-  faBuilding,
-  faUserTie,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Portfolio = () => {
